@@ -1,30 +1,19 @@
-import React, { useEffect, useState } from "react";
-import "./HomeDetail.css";
-
-const HomeDetail = () => {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
-    fetch("./Products.json")
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
+import React from "react";
+const HomeData = (props) => {
+  const { img, name, Price, about } = props.product;
   return (
-    <div>
-      {products.map((product) => (
-        <div class="card">
-          <img src={product.img} class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">{product.name}</h5>
-            <p class="card-text">{product.about}</p>
-            <p>Price : ${product.price}</p>
-            <a href="#" class="btn btn-primary">
-              Purchase
-            </a>
-          </div>
+    <div className="container">
+      <div className="card">
+        <img src={img} className="card-img-top" alt="" />
+        <div className="card-body">
+          <h5 className="card-title">{name}</h5>
+          <p>{about}</p>
+          <h6>Price:${Price}</h6>
+          <button className="btn btn-primary">Purchase</button>
         </div>
-      ))}
+      </div>
     </div>
   );
 };
 
-export default HomeDetail;
+export default HomeData;

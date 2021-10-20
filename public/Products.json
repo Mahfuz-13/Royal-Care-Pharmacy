@@ -40,5 +40,19 @@
       "img": "https://5.imimg.com/data5/TN/AD/MY-18174683/famcimac-28famciclovir-500-mg-29-tablet-500x500.jpg",
       "about": "Famciclovir (also called Famvir®) is used to treat viral infections. Famciclovir is available as 125-mg and 250-mg white round tablets and as a 500-mg white oval tablet",
       "Price": 21
+    },
+    {
+      "id": 7,
+      "name": "fenadin 120",
+      "img": "https://sopnil.com/wp-content/uploads/2021/07/fenadin120tablet.jpg",
+      "about": "Fenadin 120mg Tablet is an anti-allergy medicine used in the treatment of allergic symptoms such as runny nose, congestion or stuffiness, sneezing, itching, swelling, and watery eyes. ",
+      "Price": 12
+    },
+    {
+      "id": 8,
+      "name": "TPC",
+      "img": "https://www.acmeglobal.com/wp-content/themes/acme/images/products/081178.jpg",
+      "about": " It is indicated in the treatment of polyneuropathy of any origin such as diabetic, alcoholic or toxic neuropathies,neuritis, cervical syndrome, shoulder-arm syndrome",
+      "Price": 11
     }
   ]

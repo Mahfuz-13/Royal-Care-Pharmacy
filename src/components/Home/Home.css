@@ -1,0 +1,34 @@
+/*-----------------STYLING HOME ------------  */
+
+.home-header {
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 100px;
+  padding: 50px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+}
+.home-container img {
+  width: 400px;
+  border-radius: 100px;
+  margin-left: 100px;
+}
+.greeting {
+  text-align: start;
+  margin-bottom: 30px;
+}
+.home-text {
+  color: rgb(231, 169, 55);
+}
+.card {
+  width: 18rem;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 20px;
+}
