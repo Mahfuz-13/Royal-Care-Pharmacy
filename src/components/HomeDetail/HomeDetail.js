@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const HomeData = (props) => {
   const { img, name, Price, about } = props.product;
   return (
@@ -9,7 +10,9 @@ const HomeData = (props) => {
           <h5 className="card-title">{name}</h5>
           <p>{about}</p>
           <h6>Price:${Price}</h6>
-          <button className="btn btn-primary">Purchase</button>
+          <Link to="/purchase">
+            <button className="btn btn-primary"> Purchase</button>
+          </Link>
         </div>
       </div>
     </div>

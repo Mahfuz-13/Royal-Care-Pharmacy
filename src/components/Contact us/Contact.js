@@ -16,33 +16,33 @@ const Contact = () => {
       <div className="p-3 m-3">
         <h2>For any query:</h2>
       </div>
-      <div class="input-group mb-1 p-3">
-        <span class="input-group-text">First and last name</span>
-        <input type="text" aria-label="First name" class="form-control" />
-        <input type="text" aria-label="Last name" class="form-control" />
+      <div className="input-group mb-1 p-3">
+        <span className="input-group-text">First and last name</span>
+        <input type="text" aria-label="First name" className="form-control" />
+        <input type="text" aria-label="Last name" className="form-control" />
       </div>
-      <div class="mb-1 p-3">
-        <label for="exampleFormControlInput1" class="form-label">
+      <div className="mb-1 p-3">
+        <label htmlFor="exampleFormControlInput1" className="form-label">
           Email address
         </label>
         <input
           type="email"
-          class="form-control"
+          className="form-control"
           id="exampleFormControlInput1"
           placeholder="name@example.com"
         />
       </div>
-      <div class="p-3">
-        <label for="exampleFormControlTextarea1" class="form-label">
+      <div className="p-3">
+        <label htmlFor="exampleFormControlTextarea1" className="form-label">
           Comment or Message
         </label>
         <textarea
-          class="form-control"
+          className="form-control"
           id="exampleFormControlTextarea1"
           rows="3"
         ></textarea>
       </div>
-      <button type="button" class="btn btn-primary">
+      <button type="button" className="btn btn-primary">
         Submit
       </button>
     </div>

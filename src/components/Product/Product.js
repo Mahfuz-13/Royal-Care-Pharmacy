@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // Importing css file
 import "./Product.css";
 const product = (props) => {
@@ -12,7 +13,9 @@ const product = (props) => {
             <h5 className="card-title">{name}</h5>
             <p>{about}</p>
             <h5>Price:${Price}</h5>
-            <button className="btn btn-primary">Purchase</button>
+            <Link to="/purchase">
+              <button className="btn btn-primary"> Purchase</button>
+            </Link>
           </div>
         </div>
       </div>
