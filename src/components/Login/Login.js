@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import useFierbase from "../../hooks/useFirebase";
 
 const Login = () => {
-  const { user, signInUsingGoogle } = useFierbase();
+  const { signInUsingGoogle } = useFierbase();
   return (
     <div>
       <h2>Login</h2>
